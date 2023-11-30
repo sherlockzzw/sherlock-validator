@@ -1,0 +1,20 @@
+{
+  "name": "sherlock-validator/validator",
+  "description": "Validator Package for Sherlock",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sherlock",
+      "email": "1569933416@qq.com"
+    }
+  ],
+  "require": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Sherlock\\Validator\\": "sherlock-validator/src/Validator/"
+    }
+  }
+}
